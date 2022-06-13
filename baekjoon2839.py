@@ -5,6 +5,7 @@ n = int(input())
 
 if n % 5 == 0:  # 5으로 나눠떨어질 때
     print(n // 5)
+else:
     p = 0
     while n > 0:
         n -= 3
